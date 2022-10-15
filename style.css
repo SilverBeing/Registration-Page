@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&family=Varela+Round&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Varela Round", sans-serif;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+header {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+header a {
+	color: #14d668 !important;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: 800;
+    
+}
+.content {
+	display: flex;
+	max-width: 1400px;
+	width: 100%;
+	border-radius: 15px;
+	box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+	align-items: center;
+}
+.greeting {
+	width: 40%;
+	background-image: url(./media/4567334-removebg-preview.png);
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+	isolation: isolate;
+}
+.box {
+	display: flex;
+	margin-right: 20px;
+}
+.box label {
+	margin-left: 20px;
+}
+.signup-content,
+.sign-in-content {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+#heading {
+	color: #14d668;
+    font-weight: bolder;
+    font-size: 35px;
+}
+form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 400px;
+	margin-top: 30px;
+}
+.color input {
+	padding: 0 !important;
+}
+
+.icons {
+	margin: 10px;
+	display: flex;
+}
+button{
+    color: white;
+}
+.icons i {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 0 10px;
+}
+.caption h3 {
+	font-size: 12px;
+}
+
+.info {
+	display: flex;
+	width: 100%;
+}
+.dob {
+	display: flex;
+	margin-left: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+	font-size: 12px;
+	text-align: center;
+	margin-right: 20px;
+	font-weight: 600;
+    color:#14d668;
+}
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	opacity: 0.9;
+}
+select,
+option {
+	border: none;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	opacity: 0.9;
+	height: 40px;
+}
+.checkbox {
+	display: flex;
+	padding: 10px;
+}
+.checkbox input {
+	width: 15px !important;
+}
+.checkbox h3 {
+	font-size: 12px;
+	margin-left: 10px;
+}
+.checkbox span {
+	color: #14d668;
+}
+.text {
+	color: #14d668 !important;
+}
+.image {
+	width: 400px;
+	margin: auto;
+}
+.images {
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.body {
+	margin-top: -20%;
+	text-align: center;
+}
+.body button {
+	margin-bottom: 20%;
+	margin-top: 32px;
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: #14d668;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.body p {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+.body h1 {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.confirm {
+	display: flex;
+	width: 800px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.greeting::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-color: #14d668;
+	background-image: cover;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.95;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.hello {
+	position: relative;
+	margin-bottom: 20px;
+}
+.hello h1 {
+	font-size: 30px;
+	color: white;
+}
+.greeting .hello::after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 36%;
+	right: 0;
+	top: 45px;
+	background-color: white;
+	width: 50px;
+	height: 3px;
+	border-radius: 2px;
+}
+.writeup {
+	width: 80%;
+	margin: 20px;
+}
+.writeup p {
+	font-size: 16px;
+}
+.greeting a button {
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: transparent;
+	box-shadow: 0px 0px 5px rgba(155, 150, 150, 0.2);
+}
+.button {
+	margin: auto;
+}
+.button input {
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: #14d668;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	color: white;
+	font-size: 14px;
+}
