@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<script
+			src="https://kit.fontawesome.com/459372f92b.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Zuri Registration Task</title>
+	</head>
+	<body>
+		<header>
+			<a href="./index.html" class="logo">SILVER</a>
+		</header>
+		<main>
+			<div class="content">
+				<div class="greeting">
+					<div class="hello">
+						<h1>Hello, Friend!</h1>
+					</div>
+					<div class="writeup">
+						<p>If you already have an account sign in. We've missed you!</p>
+					</div>
+					<a href="./signin.html"><button>Login</button></a>
+				</div>
+				<div class="signup-content">
+					<div class="signup-content-heading">
+						<h1 id="heading">Create Account</h1>
+					</div>
+					<div class="icons">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+						<i class="fa fa-google-plus"></i>
+					</div>
+					<div class="caption">
+						<h3>or use your email account to create account</h3>
+					</div>
+					<div class="form">
+						<form method="get" action="./success.html">
+							<div class="fullnames">
+								<div class="firstname">
+									<input
+										type="text"
+										id="fname"
+										name="fname"
+										placeholder="First Name"
+									/>
+								</div>
+								<div class="lastname">
+									<input
+										type="text"
+										id="lname"
+										name="lname"
+										placeholder="Last Name"
+									/>
+								</div>
+							</div>
+							<div class="phone-number">
+								<input
+									type="text"
+									id="phone"
+									name="phone"
+									placeholder="Phone Number"
+								/>
+							</div>
+							<div class="email">
+								<input
+									type="text"
+									id="email"
+									name="email"
+									placeholder="Email Address"
+									required
+								/>
+							</div>
+							<div class="password">
+								<input
+									type="password"
+									placeholder="password"
+									required
+								/>
+							</div>
+							<div class="info">
+								<div class="gender">
+									<label for="gender">Gender</label>
+									<select name="gender" id="gender">
+										<option value="male">Male</option>
+										<option value="female">Female</option>
+									</select>
+								</div>
+								<div class="dob">
+									<label for="dob">DOB</label>
+									<input type="date" id="dob" name="dob" />
+								</div>
+							</div>
+							<div class="color">
+								<label for="color">Select Favorite Color</label>
+								<input type="color" id="color" name="color" />
+							</div>
+
+							<div class="checkbox">
+								<input type="checkbox" checked />
+								<h3>
+									I have read the <span class="terms">Terms and Conditons</span>
+								</h3>
+							</div>
+							<div class="button">
+								<input type="submit" value="Sign Up" />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
